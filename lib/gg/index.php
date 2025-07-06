@@ -14,7 +14,7 @@ $msgtodingtalk = "公告：一.规则
 11.Ti成员不能以Ti名声无缘无故诋毁别的任何组织 
 12.剩下的请大家商讨来定";
     // 钉钉机器人的Webhook地址
-    $webhook = "https://oapi.dingtalk.com/robot/send?access_token=1a4a0729f59a1d0e79d0605baf9d500c57a31c653482443e63257f35b8333c28";
+    $webhook = "";
     // 要发送的数据
     $data = array(
         "msgtype" => "text",
