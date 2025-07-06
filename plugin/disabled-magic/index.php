@@ -10,12 +10,10 @@ $zurl = $_POST["cs"];
 $curl = urldecode($zurl);
 $regex = '/\?id=(\w+)&url=(\S+)&t=(\S+)&m=(\S+)/';
 if (preg_match($regex, $curl, $matches)) {
-    // 提取出地址、标题和正文
     $id = $matches[1];
     $address = $matches[2];
     $title = $matches[3];
     $content = $matches[4];
-    // 赋值给相应的变量
     $url = $address;
     $t = $title;
     $m = $content;
